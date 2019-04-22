@@ -6,3 +6,8 @@ the copr repo https://copr.fedorainfracloud.org/coprs/beckus/rf-tools/
 
 Please consider the use of it at your own risk! Some packages might not be build with the caution they are supposed
 to, but I will keep an eye on it.
+
+The RPMs are build using rpmbuild and mock, like:
+$ rpmbuild -bs foo.spec
+$ mock -r <"whatever architecture you want" foo.srpm
+Later they are just uploaded to copr by using "copr-cli build rf-tools foo.srpm"
