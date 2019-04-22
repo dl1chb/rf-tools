@@ -5,6 +5,8 @@ Summary:        some dependency from SDRangel
 
 License:        GPLv3
 URL:            https://github.com/f4exb/cm256cc
+# to get the sources for this, clone the git repo and checkout the tag v1.0.5, name the foler cm256cc-1-0.5
+# then, create the tarball in you SOURCES-directory using tar cfj cm256cc-1-0.5 cm256cc-1-0.5.tar.bz2
 Source0:        %{name}-%{version}.tar.bz2
 
 BuildRequires:  cmake gcc-c++ pkgconfig fftw-devel libusb-devel qt5-qtbase-devel qt5-qtmultimedia-devel qt5-qttools-devel boost-devel pulseaudio-libs-devel alsa-lib-devel mesa-libGL
