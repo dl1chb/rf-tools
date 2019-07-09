@@ -11,3 +11,5 @@ The RPMs are build using rpmbuild and mock, like:
 $ rpmbuild -bs foo.spec
 $ mock -r <"whatever architecture you want" foo.srpm
 Later they are just uploaded to copr by using "copr-cli build rf-tools foo.srpm"
+
+Maybe you need to use "spectool -g -R file.spec" to download ne necessary sources
