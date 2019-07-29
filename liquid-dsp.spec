@@ -1,9 +1,9 @@
-%global commit ff0154bd55fcd611704591d926afc9400b172ae9
+%global commit 4892ebbc04ef57dd6f603d3f4ece253d8c2bd571
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global snapshotdate 20180806
+%global snapshotdate 20190729
 Name:           liquid-dsp
-Version:        1.3.1
-Release:        4.%{snapshotdate}git%{shortcommit}%{?dist}
+Version:        1.3.2
+Release:        1.%{snapshotdate}git%{shortcommit}%{?dist}
 Summary:        Digital Signal Processing Library for Software-Defined Radios
 
 License:        MIT
